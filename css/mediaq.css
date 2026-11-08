@@ -1,0 +1,271 @@
+@media (max-width:1000px){
+    .heroimg{
+        width: 30%;
+        padding-top: 100px;
+    }
+    .abouthead{
+        font-size: 50px;
+    }
+    .abouttext{
+        font-size: 14px;
+    }
+}
+@media (max-width:860px){
+    .ph{
+        font-size: 14px;
+    }
+   
+    .skillitem{
+        font-size: 70px;
+    }
+}
+@media (max-width:780px){
+    .ph{
+        font-size: 12px;
+    }
+    .abouttext{
+        font-size: 13px;
+    }.projectimage{
+        width: 500px;
+    }
+    .menu{
+        display: block;
+    }
+    .navlinks{
+        display: none;
+    }
+    .navlinks.show{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        left: 0px;
+       position: absolute;
+       top: 100px;
+       height: fit-content;
+       padding-block: 10px;
+        width: 100%;
+        z-index: 999;
+        background-color: #6b3546f8;
+        color: whitesmoke;
+    }
+}
+@media (max-width:690px){
+    .heroimg{
+        width: 42%;
+    }
+    .ph{
+        font-size: 15px;
+    }
+
+    .hero{
+        padding-inline: 70px;
+    }
+    .about{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .abouttext{
+        font-size: 12px;
+    }
+    .abouthead{
+        text-align: center;
+        font-size: 34px;
+    }.skillitem{
+        font-size: 50px;
+    }
+    .skillshead{
+        font-size: 30px;
+    }
+    .prohead{
+        font-size: 30px;
+    }
+    .contacthead{
+        font-size: 30px;
+    }.projectimage{
+        width: 400px;
+    }
+}
+@media (max-width:530px){
+    .heroimg{
+        width: 50%;
+    }
+    .abouttext{
+        font-size: 11px;
+    }
+    .skillitem{
+        font-size: 40px;
+    }
+      .skillshead{
+        font-size: 25px;
+    }
+    .prohead{
+        font-size: 25px;
+    }
+    .contacthead{
+        font-size: 25px;
+    }
+    .abouthead{
+        font-size: 25px;
+    }.projectimage{
+        
+    }
+}
+@media (max-width:490px){
+    .logo{
+        font-size: 20px;
+    }
+    .heroimg{
+        width: 55%;
+    }
+    .abouttext{
+        font-size: 10px;
+    }
+    .skillitem{
+        font-size: 40px;
+        gap: 40px;
+
+    }
+    .skillssec{
+        gap: 50px;
+    }
+    .s{
+        font-size: 13px;
+    }
+    .projectimage{
+        width: 350px;
+    }
+    .footer-sec{
+        padding: 30px;
+
+    }
+    .footerp{
+        font-size: 15px;
+    }
+}
+@media (max-width:390px){
+    .heroimg{
+        width: 70%;
+    }
+    h1{
+        font-size: 30px;
+    }
+    .ph{
+        font-size: 13px;
+    }
+    .skillitem{
+        font-size: 30px;
+        gap: 30px;
+    }
+    .s{
+        font-size: 14px;
+    }
+    .projectimage{
+        width: 300px;
+    }
+    .inpfield,textarea{
+        width: 250px;
+
+    }.footerp{
+        font-size: 13px;
+    }
+}
+@media (max-width:360px){
+    .heroimg{
+        width: 80%;
+    }
+    .ph{
+        font-size: 11px;
+    }
+    .logo{
+        font-size: 15px;
+    }
+    .navbar{
+        padding-inline: 30px;
+
+    }
+    h1{
+        font-size: 27px;
+    }
+    .abouttext{
+        font-size: 10px;
+    }
+    .projectimage{
+        width: 250px;
+    }
+    .inpfield{
+        width: 210px;
+    }
+    textarea{
+        height: 150px;
+    }
+    .footerp{
+        font-size: 12px;
+    }
+    
+/* ===== Portfolio Responsive Design ===== */
+
+@media (max-width: 780px) {
+    .projects-grid {
+        grid-template-columns: 1fr;
+        max-width: 520px;
+    }
+
+    .project {
+        padding: 65px 6%;
+    }
+
+    .project-preview {
+        height: 210px;
+    }
+}
+
+@media (max-width: 490px) {
+    .project {
+        padding: 50px 20px;
+    }
+
+    .prohead {
+        font-size: 28px;
+    }
+
+    .project-subtitle {
+        font-size: 13px;
+    }
+
+    .projects-grid {
+        gap: 22px;
+    }
+
+    .project-preview {
+        height: 170px;
+    }
+
+    .project-preview i {
+        font-size: 50px;
+    }
+
+    .project-preview span {
+        font-size: 19px;
+    }
+
+    .project-content {
+        padding: 20px;
+    }
+
+    .project-content h3 {
+        font-size: 20px;
+    }
+
+    .project-content p {
+        font-size: 13px;
+    }
+
+    .project-btn {
+        padding: 10px 16px;
+        font-size: 13px;
+    }
+}
+
+} 

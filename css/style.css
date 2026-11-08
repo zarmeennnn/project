@@ -1,0 +1,431 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+    
+}
+section{
+    scroll-margin-top: 24vh;
+}
+body{
+    background-color: #582c3a;
+}
+.logo{
+    color: whitesmoke;
+    font-family: "Comic Neue", cursive;
+}
+a{
+      font-family: "Comic Neue", cursive;
+  font-weight: 400;
+  font-size: 18px;
+    
+    text-decoration: none;
+    color: whitesmoke;
+}
+.navbar{
+    background-color: #6b3546;;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 15vh;
+    position: fixed;
+    padding-block: 50px;
+    padding-inline: 50px;
+    z-index: 1;
+
+}
+.navlinks{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+}
+.heroimg{
+    padding-top: 130px;
+    width: 23%;
+}
+.hero{
+
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  gap: 10px;
+  text-align: center;
+  padding-block: 20px;
+  color: whitesmoke;
+
+    
+}
+.ph{
+      font-family: "Comic Neue", cursive;
+  font-weight: 400;
+}
+h1{
+    color: #f7bfbe;
+    font-family: "Comic Neue", cursive;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 70px;
+    width: 100%;
+    height: 60vh;
+    color: whitesmoke;
+   
+
+}
+.abouthead{
+    font-size: 70px;
+        color:  #f7bfbe;
+        font-family: "Comic Neue", cursive;
+}
+.abouttext{
+    font-size: 17px;
+      font-family: "Comic Neue", cursive;
+  font-weight: 400;
+}
+.skillssec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    width: 100%;
+    height: fit-content;
+    padding: 70px;
+    color: whitesmoke;
+      font-family: "Comic Neue", cursive;
+  font-weight: 400;
+   
+
+}
+.skillshead{
+    font-size: 40px;
+         color:  #f7bfbe;
+         font-family: "Comic Neue", cursive;
+}
+.skillitem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    text-align: center;
+    font-size: 100px;
+}
+.s{
+    font-size: 
+    20px;
+}
+.project{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 30px;
+ 
+   text-align: center;
+   width: 100%;
+   height: fit-content;
+   padding-block: 30px;
+}
+.prohead{
+    font-size: 40px;
+        color:  #f7bfbe;
+        font-family: "Comic Neue", cursive;
+}
+.projectimage{
+    width: 600px;
+    padding-block: 30px;
+    
+   
+}
+.contacthead{
+    font-size: 40px;
+    color:  #f7bfbe;
+    font-family: "Comic Neue", cursive;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    padding: 70px;
+    
+}
+.inpfield{
+    width: 350px;
+    border-radius: 10px;
+    padding: 7px;
+    outline: none;
+    border: none;
+    background-color:  #e7b5b486;
+    color: whitesmoke;
+      font-family: "Comic Neue", cursive;
+  font-weight: 400;
+}
+.inpfield::placeholder{
+    color: whitesmoke ;
+}
+textarea{
+    height: 200px;
+    resize: none;
+}
+.inpfield:focus{
+    border: 3px solid whitesmoke;
+}
+.btn{
+    width: 100px;
+    height: 30px;
+    background-color:  #f7bfbe;
+    border: none;
+    outline: none;
+    color: whitesmoke;
+    border-radius: 20px;
+    transition: all 0.3s ease-in-out;
+      font-family: "Comic Neue", cursive;
+  font-weight: 400;
+}
+.btn:hover{
+    background-color:  aliceblue;
+    color:  #582c3a ;
+    border: 1px solid #c8a8b6;
+    box-shadow: 1px 1px 20px 2px #f7bfbe7e; ;
+}
+.footer-sec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    padding: 50px;
+    height: fit-content;
+    color: whitesmoke;
+    background-color: #6b3546;
+      
+}
+.social-links a{
+    display: inline-flex;
+    margin-inline: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color:  #f7bfbe;
+    color: aliceblue;
+    transition: all 0.3s ease-in-out;
+}
+.footerp{
+      font-family: "Comic Neue", cursive;
+  font-weight: 400;
+}
+.footerc{
+    font-family: cursive;
+    
+}
+.social-links a:hover{
+    background-color:  #dfabaa;
+}
+.menu{
+    display: none;
+    color: whitesmoke;
+}
+
+
+/* ===== Portfolio Section ===== */
+
+.project {
+    padding: 90px 7%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.prohead {
+    font-size: 40px;
+    color: #f7bfbe;
+    font-family: "Comic Neue", cursive;
+    text-align: center;
+}
+
+.project-subtitle {
+    color: #eacbd3;
+    font-family: "Comic Neue", cursive;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 30px;
+    width: 100%;
+    max-width: 1100px;
+}
+
+.project-card {
+    background-color: #6b3546;
+    border: 1px solid rgba(247, 191, 190, 0.2);
+    border-radius: 18px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease,
+                box-shadow 0.3s ease,
+                border-color 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+    border-color: #f7bfbe;
+}
+
+.project-preview {
+    height: 220px;
+    background: linear-gradient(
+        135deg,
+        #824457,
+        #3d1c29
+    );
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    color: #f7bfbe;
+}
+
+.project-preview i {
+    font-size: 65px;
+    transition: transform 0.3s ease;
+}
+
+.project-preview span {
+    font-family: "Comic Neue", cursive;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.project-card:hover .project-preview i {
+    transform: scale(1.12);
+}
+
+.project-content {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    flex: 1;
+    text-align: left;
+}
+
+.project-content h3 {
+    color: #f7bfbe;
+    font-family: "Comic Neue", cursive;
+    font-size: 24px;
+}
+
+.project-content p {
+    color: whitesmoke;
+    font-family: "Comic Neue", cursive;
+    font-size: 15px;
+    line-height: 1.7;
+    flex: 1;
+}
+
+.project-buttons {
+    margin-top: 10px;
+}
+
+.project-btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 20px;
+    border-radius: 25px;
+    background-color: #f7bfbe;
+    color: #582c3a;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.project-btn:hover {
+    background-color: whitesmoke;
+    color: #582c3a;
+    box-shadow: 0 5px 18px rgba(247, 191, 190, 0.35);
+}
+
+.project-btn:focus-visible {
+    outline: 3px solid white;
+    outline-offset: 3px;
+}
+.project-preview {
+    height: 220px;
+    overflow: hidden;
+}
+
+.project-preview img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    display: block;
+}
+.project-preview {
+    height: 220px;
+    overflow: hidden;
+    padding: 0;
+}
+
+.project-preview {
+    height: 220px;
+    overflow: hidden;
+    padding: 0;
+    display: block;
+}
+
+.project-preview img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
+    display: block;
+    margin: 0;
+}
+.project-preview {
+    height: 220px;
+    overflow: hidden;
+    padding: 0;
+    display: block;
+}
+
+.project-preview img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
+    display: block;
+    margin: 0;
+}
